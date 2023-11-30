@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: 100%;
+}
+
+p {
+    margin: 5px;
+    font-size: 19px;
+}
+
+/* INFORMAÇÕES DO PRIMEIRO BLOCO */
+
+.container_app{
+    text-align: center;
+}
+
+.nomeApp{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#descricao1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+#descricao2{
+    font-size: 20px;
+    margin: 30px;
+    text-align: justify;
+}
+
+#inputs{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#nomeFilme{
+    height: 50px;
+    width: 380px;
+    background-color: rgb(216, 215, 215);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#btnBuscar{
+    height: 50px;
+    width: 380px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #DB202C;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+
+/* IRFORMAÇÕES SEGUNDO BLOCO */
+
+#quadro{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px;
+    margin-top: 5%;
+}
+
+.container {
+    width: 450px;
+    height: 590px;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+#poster{
+    width: 400px;
+    height: 250px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+
+/* IRFORMAÇÕES FILME */
+
+.titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+#informacoes1{
+    text-align: center;
+}
+
+#informacoes2{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#detalhes {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sinopse {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+}
+
+.msgErro {
+    color: red;
+}
